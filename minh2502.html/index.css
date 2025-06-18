@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+}
+ul,li,p{
+list-style: none;
+margin: 0 ;
+padding: 0;
+}
+header{
+    background-image: linear-gradient(red,yellow);
+    height: 120px;
+ 
+}
+.header{
+  flex-direction: column;
+ display: flex;
+ gap: 12px;  
+}
+.container{
+    max-width: 1500px;
+    margin:0 auto;
+   
+}
+.header-top{
+    display: flex;
+
+    justify-content: space-between;
+    border-bottom: 1px coral;
+}
+.header-bottom{
+    justify-content:space-between;
+    display: flex;
+}
+.navlist-right{
+    display: flex;
+}
+.header-top-left{
+    display: flex;
+    gap: 12px;
+}
+.navlist-left{
+    display: flex;
+}
